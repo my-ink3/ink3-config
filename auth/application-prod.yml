@@ -6,8 +6,8 @@ spring:
     password: ${RABBITMQ_PASSWORD}
   data:
     redis:
-      host: ${REDIS_HOST}
-      port: ${REDIS_PORT}
+      host: 192.168.1.191
+      port: 6379
       database: 0
       password: ${REDIS_PASSWORD}
 jwt:
