@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://s4.java21.net:13306/project_be9_team3_prod
+    url: jdbc:mysql://192.168.1.191:3306/ink3?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
     username: ${DB_USERNAME}
     password: ${DB_PASSWORD}
     hikari:
@@ -10,9 +10,9 @@ spring:
       minimum-idle: 10
   data:
     redis:
-      host: s4.java21.net
+      host: 192.168.1.191
       port: 6379
-      database: 298
+      database: 1
       password: ${REDIS_PASSWORD}
   jpa:
     open-in-view: false
