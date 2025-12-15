@@ -7,9 +7,9 @@ toss:
     fail-guest: https://ink3.shop/guest-payment/fail
 feign:
   url:
-    gateway: https://ink3.shop/gateway
-    auth: https://ink3.shop/gateway/auth
-    shop: https://ink3.shop/gateway/shop
+    gateway: http://127.0.0.1:10250
+    auth: http://127.0.0.1:10250/auth
+    shop: http://127.0.0.1:10250/shop
 spring:
   rabbitmq:
     host: ${RABBITMQ_HOST}
