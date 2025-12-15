@@ -44,7 +44,7 @@ minio:
   review-bucket: ink3-prod-reviews-images
   book-bucket: ink3-prod-books-images
 elasticsearch:
-  url: http://s4.java21.net:9200
+  url: http://127.0.0.1:9200
   index: ink3_books_prod
   key: ${ELASTIC_KEY}
 logging:
